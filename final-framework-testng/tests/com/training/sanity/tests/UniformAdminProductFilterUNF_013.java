@@ -50,6 +50,7 @@ public class UniformAdminProductFilterUNF_013 {
 		Thread.sleep(1000);
 		h.mouseHoverCatalog();
 		h.clickProducts();
+		System.out.println("Products Page");
 		p.sendProductName("Blazer Girls");
 		p.clickFilterBtn();
   }
