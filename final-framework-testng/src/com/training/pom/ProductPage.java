@@ -19,6 +19,18 @@ public class ProductPage {
 	@FindBy(id="button-filter")
 	private WebElement filterBtn;
 	
+	@FindBy(xpath="//tr[1]//td[8]//a[1]//i[1]")
+	private WebElement editIcon;
+	
+	@FindBy(xpath="//a[contains(text(),'Data')]")
+	private WebElement dataTab;
+	
+	@FindBy(id="input-quantity")
+	private WebElement quantity;
+	
+	@FindBy(xpath="//div[@class='pull-right']//button[@class='btn btn-primary']")
+	private WebElement saveButton;
+	
 	
 	
 	public  void sendProductName(String productName) {
@@ -29,4 +41,21 @@ public class ProductPage {
 	public  void clickFilterBtn() {
 		this.filterBtn.click(); 
 	}
+	
+	public void clickProductEditIcon() {
+		this.editIcon.click();
+	}
+	
+	public void clickdataTab() {
+		this.dataTab.click();
+	}
+	
+	public void enterQuantity(String quantity) {
+		this.quantity.clear();
+		this.quantity.sendKeys(quantity);
+	}
+	public void clickSaveButton() {
+		this.saveButton.click();
+	}
+	
 }

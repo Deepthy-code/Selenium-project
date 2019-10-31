@@ -30,6 +30,14 @@ public class HomePage {
 	@FindBy(xpath="//li[@id='catalog']//ul//li//a[contains(text(),'Products')]")
 	private WebElement productsIcon;
 	
+	@FindBy(xpath="//i[@class='fa fa-shopping-cart fa-fw']")
+	private WebElement cartIcon;
+	
+	//@FindBy(xpath="//li[@id='sale']//li[@class='active open']//a[contains(text(),'Orders')]")
+	//@FindBy(xpath="//li[@id='sale']//li[@class='active open']//a[contains(text(),'Orders')]")
+	@FindBy(xpath="/html[1]/body[1]/div[1]/nav[1]/ul[1]/li[5]/ul[1]/li[1]/a[1]")
+	private WebElement orders;
+	
 	public void mouseHoverCatalog() {
 		Actions act = new Actions(driver);
 		act.moveToElement(catalogIcon).build().perform();
@@ -50,5 +58,13 @@ public class HomePage {
 	
 	public  void clickOrders() {
 		this.ordersIcon.click(); 
+	}
+	
+	public void mouseHoverCart() {
+		Actions act = new Actions(driver);
+		act.moveToElement(cartIcon).build().perform();
+	}
+	public  void clickCartOrders() {
+		this.orders.click(); 
 	}
 }
