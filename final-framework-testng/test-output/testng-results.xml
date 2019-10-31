@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21035" started-at="2019-10-24T10:18:19 IST" finished-at="2019-10-24T10:18:40 IST">
+  <suite name="Default suite" duration-ms="25031" started-at="2019-10-30T17:38:25 IST" finished-at="2019-10-30T17:38:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21035" started-at="2019-10-24T10:18:19 IST" finished-at="2019-10-24T10:18:40 IST">
-      <class name="com.training.sanity.tests.UniformAdminProductFilterUNF_013">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UniformAdminProductFilterUNF_013@79be0360]" name="setUpBeforeClass" is-config="true" duration-ms="17" started-at="2019-10-24T10:18:19 IST" finished-at="2019-10-24T10:18:19 IST">
+    <test name="Default test" duration-ms="25031" started-at="2019-10-30T17:38:25 IST" finished-at="2019-10-30T17:38:50 IST">
+      <class name="com.training.sanity.tests.UniformAdminViewOrderUNF_045">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UniformAdminViewOrderUNF_045@79be0360]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2019-10-30T17:38:25 IST" finished-at="2019-10-30T17:38:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UniformAdminProductFilterUNF_013@79be0360]" name="setUp" is-config="true" duration-ms="13226" started-at="2019-10-24T10:18:19 IST" finished-at="2019-10-24T10:18:32 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UniformAdminViewOrderUNF_045@79be0360]" name="setUp" is-config="true" duration-ms="15790" started-at="2019-10-30T17:38:25 IST" finished-at="2019-10-30T17:38:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="productFilter()[pri:0, instance:com.training.sanity.tests.UniformAdminProductFilterUNF_013@79be0360]" name="productFilter" duration-ms="4856" started-at="2019-10-24T10:18:32 IST" finished-at="2019-10-24T10:18:37 IST">
+        <test-method status="PASS" signature="productFilter()[pri:0, instance:com.training.sanity.tests.UniformAdminViewOrderUNF_045@79be0360]" name="productFilter" duration-ms="6359" started-at="2019-10-30T17:38:41 IST" finished-at="2019-10-30T17:38:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productFilter -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.UniformAdminProductFilterUNF_013@79be0360]" name="afterMethod" is-config="true" duration-ms="2886" started-at="2019-10-24T10:18:37 IST" finished-at="2019-10-24T10:18:40 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.UniformAdminViewOrderUNF_045@79be0360]" name="afterMethod" is-config="true" duration-ms="2829" started-at="2019-10-30T17:38:47 IST" finished-at="2019-10-30T17:38:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.training.sanity.tests.UniformAdminProductFilterUNF_013 -->
+      </class> <!-- com.training.sanity.tests.UniformAdminViewOrderUNF_045 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
